@@ -1,0 +1,56 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #061a24;
+}
+
+.item {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+    background-color: #F8D51E;
+}
+
+#two {
+    background-color: #61C1DF;
+}
+
+#three {
+    background-color: #DE8C67;
+}
+
+#four {
+    background-color: #7186F6;
+}
+
+#five {
+    background-color: #D656AA;
+}
+
+#six {
+    background-color: #E72323;
+}
+
+.container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(4, 250px);
+    gap: 5px;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

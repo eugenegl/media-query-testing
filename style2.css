@@ -1,0 +1,57 @@
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #061a24;
+
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    margin: 20px;
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 5px;
+}
+
+.item {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#one {
+    grid-column: 1 / 3;
+    background-color: #F8D51E;
+}
+
+#two {
+    background-color: #61C1DF;
+}
+
+#three {
+    grid-row: 2 / 4;
+    background-color: #DE8C67;
+}
+
+#four {
+    grid-column: 2 / 4;
+    background-color: #7186F6;
+}
+
+#five {
+    background-color: #D656AA;
+}
+
+#six {
+    background-color: #E72323;
+}
